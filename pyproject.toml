@@ -1,6 +1,6 @@
 [project]
 name = "hello-geo"
-version = "0.0.1"
+version = "0.0.2"
 dynamic = [
     "dependencies",
 ]
@@ -52,7 +52,7 @@ universal = true
 
 
 [tool.bumpversion]
-current_version = "0.0.1"
+current_version = "0.0.2"
 commit = true
 tag = true
 
@@ -67,11 +67,13 @@ search = '__version__ = "{current_version}"'
 replace = '__version__ = "{new_version}"'
 
 
+
 [tool.flake8]
 exclude = [
     "docs",
 ]
 max-line-length = 88
+
 
 
 [project.urls]
